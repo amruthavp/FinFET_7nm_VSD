@@ -4,20 +4,17 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
   <details>
     <summary>NFET CHAR</summary>
       SPICE CODE:
-    
         ** sch_path: /home/hprcse/Finfet/nfet_char.sch
         **.subckt nfet_char
         V1 nfet_in GND 0.5
         V2 vdd GND 0.5
         *R1 vdd nfet_out 1k m=1
         Xnfet2 vdd nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
-        **** begin user architecture code
-      
+        **** begin user architecture code      
       .control
       pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
       run
-      dc v1 0 0.7 0.01 v2 0 0.7 0.1
-      
+      dc v1 0 0.7 0.01 v2 0 0.7 0.1      
       *set xbrushwidth=3
       *let vd = vdd - nfet_out
       *let id  = vd/1000
@@ -125,8 +122,16 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
       .end
 
     <img width="1396" height="542" alt="image" src="https://github.com/user-attachments/assets/96884adf-4305-4d93-8072-59c9858dbd86" />
+  </details>
 
-    
+<details>
 <summary>ASSIGNMENT 1 : INVERTER CHAR</summary>
 <img width="619" height="538" alt="image" src="https://github.com/user-attachments/assets/e9f96ae5-d4da-4c56-9fed-a562aea56e2d" />
+
+ </details>
+
+ <details>
+<summary>ASSIGNMENT 1 : INVERTER CHAR</summary>
+<img width="619" height="538" alt="image" src="https://github.com/user-attachments/assets/e9f96ae5-d4da-4c56-9fed-a562aea56e2d" />
+
  </details>
