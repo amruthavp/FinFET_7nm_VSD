@@ -4,7 +4,8 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
   <details>
     <summary>NFET CHAR</summary>
       SPICE CODE:
-      ** sch_path: /home/hprcse/Finfet/nfet_char.sch
+    
+        ** sch_path: /home/hprcse/Finfet/nfet_char.sch
         **.subckt nfet_char
         V1 nfet_in GND 0.5
         V2 vdd GND 0.5
@@ -123,7 +124,9 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
       **** end user architecture code
       .end
 
+<img width="1396" height="542" alt="image" src="https://github.com/user-attachments/assets/96884adf-4305-4d93-8072-59c9858dbd86" />
+
     
-    <summary>ASSIGNMENT 1 : INVERTER CHAR</summary>
-    <img width="619" height="538" alt="image" src="https://github.com/user-attachments/assets/e9f96ae5-d4da-4c56-9fed-a562aea56e2d" />
+  <summary>ASSIGNMENT 1 : INVERTER CHAR</summary>
+  <img width="619" height="538" alt="image" src="https://github.com/user-attachments/assets/e9f96ae5-d4da-4c56-9fed-a562aea56e2d" />
  </details>
