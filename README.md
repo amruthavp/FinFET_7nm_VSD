@@ -4,21 +4,22 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
   <details>
     <summary>NFET CHAR</summary>
       SPICE CODE:
-        ** sch_path: /home/hprcse/Finfet/nfet_char.sch
-        **.subckt nfet_char
-        V1 nfet_in GND 0.5
-        V2 vdd GND 0.5
-        *R1 vdd nfet_out 1k m=1
-        Xnfet2 vdd nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
-        **** begin user architecture code      
-      .control
-      pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
-      run
-      dc v1 0 0.7 0.01 v2 0 0.7 0.1      
-      *set xbrushwidth=3
-      *let vd = vdd - nfet_out
-      *let id  = vd/1000
-      let ids= -v2#branch
+    
+          ** sch_path: /home/hprcse/Finfet/nfet_char.sch
+          **.subckt nfet_char
+          V1 nfet_in GND 0.5
+          V2 vdd GND 0.5
+          *R1 vdd nfet_out 1k m=1
+          Xnfet2 vdd nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
+          **** begin user architecture code      
+        .control
+        pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
+        run
+        dc v1 0 0.7 0.01 v2 0 0.7 0.1      
+        *set xbrushwidth=3
+        *let vd = vdd - nfet_out
+        *let id  = vd/1000
+        let ids= -v2#branch
       
       plot ids vs nfet_in
       
@@ -121,7 +122,7 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
       **** end user architecture code
       .end
 
-    <img width="1396" height="542" alt="image" src="https://github.com/user-attachments/assets/96884adf-4305-4d93-8072-59c9858dbd86" />
+  <img width="1396" height="542" alt="image" src="https://github.com/user-attachments/assets/96884adf-4305-4d93-8072-59c9858dbd86" />
   </details>
 
 <details>
