@@ -130,7 +130,7 @@ ASAP7 (7 nm) predictive PDK with Xschem and Ngspice.
 <img width="619" height="538" alt="image" src="https://github.com/user-attachments/assets/e9f96ae5-d4da-4c56-9fed-a562aea56e2d" />
 <img width="1600" height="543" alt="image" src="https://github.com/user-attachments/assets/a8dc0f4d-79e1-4d6d-9713-ffe9f86368b1" />
 
- </details>
+
 
    ** sch_path: /home/maddy/asap_7nm_Xschem/inverter_vtc.sch
 **.subckt inverter_vtc
@@ -418,7 +418,7 @@ tr                  =  2.100000e-11
 tf                  =  2.351715e-11
 t_delay = 4.451715e-11
 f = 2.246325e+10
-
+ </details>
  <details>
 <summary>ASSIGNMENT 2 </summary>
 <img width="1055" height="430" alt="image" src="https://github.com/user-attachments/assets/7b095365-ff90-4aae-a8f2-84d181d2ed17" />
