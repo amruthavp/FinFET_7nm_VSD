@@ -418,7 +418,7 @@ OUTPUT:
 	tf                  =  2.351715e-11
 	t_delay = 4.451715e-11
 	f = 2.246325e+10
-    <img width="1309" height="223" alt="image" src="https://github.com/user-attachments/assets/4ece2066-aa3e-4e8b-bed5-fe7b74a46133" />
+<img width="1309" height="223" alt="image" src="https://github.com/user-attachments/assets/4ece2066-aa3e-4e8b-bed5-fe7b74a46133" />
  </details>
 
  <details>
