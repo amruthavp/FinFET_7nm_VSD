@@ -626,12 +626,6 @@ source code:
 	**** end user architecture code
 	.end
 
-S.No.	VDD (V)	Temp (°C)	Vref (V)	Line Reg. (mV/V)	Startup Time (ns)
-1	0.8	27	0.6317	989.8	53829
-2	0.9	27	0.7467	829.6	50143.04
-3	1	27	0.82966		48471.89
-4	1	-40	0.83822		74039.75
-5	1	125	0.8154852		30177.7
 <img width="494" height="191" alt="image" src="https://github.com/user-attachments/assets/a8e2e0a6-0ea3-4dbc-a142-09490ec67bee" />
  
 </details>
