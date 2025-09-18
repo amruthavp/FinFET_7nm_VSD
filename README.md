@@ -629,3 +629,12 @@ source code:
 <img width="494" height="191" alt="image" src="https://github.com/user-attachments/assets/a8e2e0a6-0ea3-4dbc-a142-09490ec67bee" />
  
 </details>
+
+<details>
+<summary>References</summary>
+1. https://github.com/RSMadhuri66/avsdbgr_7nm
+2. https://github.com/RSMadhuri66/Bandgap-Reference-Circuit-with-SCMB-with-ASAP-7nm-PDK-
+3. https://github.com/johnkustin/bandgapReferenceCircuit
+4. https://github.com/vsdip/vsdopen2021_bgr/tree/main?tab=readme-ov-file#2-BGR-introduction
+5. https://github.com/The-OpenROAD-Project/asap7_pdk_r1p7/blob/main/README_ASAP7PDK_INSTALL_201210a.txt
+</details>
